@@ -2,8 +2,8 @@ import sqlite3
 import os 
 
 
-DATABASE_DIRECTORY = "/Users/neeraj_py/Desktop/class/Sem7/BTP/Multiplex Network Recommendation System/data/DBLP/test.db"
-EDGE_DIRECTORY = "/Users/neeraj_py/Desktop/class/Sem7/BTP/Multiplex Network Recommendation System/data/DBLP/edges"
+DATABASE_DIRECTORY = "/Users/neeraj_py/Desktop/class/Sem7/BTP/Multiplex Network Recommendation System/data/DBLP Citation Network v1/test.db"
+EDGE_DIRECTORY = "/Users/neeraj_py/Desktop/class/Sem7/BTP/Multiplex Network Recommendation System/data/DBLP Citation Network v1/edges"
 
 # For each pair of papers in the Papers table in the database, find the number of common authors divided by the total number of authors for the pair of papers and store it in a text file in the format paper1_id paper2_id similarity
 

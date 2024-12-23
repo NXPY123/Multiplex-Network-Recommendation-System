@@ -52,7 +52,7 @@
 
 import sqlite3
 
-DATABASE_DIRECTORY = "/Users/neeraj_py/Desktop/class/Sem7/BTP/Multiplex Network Recommendation System/data/DBLP/test.db"
+DATABASE_DIRECTORY = "/Users/neeraj_py/Desktop/class/Sem7/BTP/Multiplex Network Recommendation System/data/DBLP Citation Network v1/test.db"
 
 def delete_paper(cursor, paper_id):
     """Deletes a paper and all related records from the database."""

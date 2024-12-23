@@ -6,5 +6,5 @@ services:
       dockerfile: Dockerfile
     container_name: weighted_deepwalk
     volumes:
-      - ./Node Embeddings:/app/Node Embeddings
-      - ./Weighted Edges:/app/Weighted Edges
+      - ./volume/Node Embeddings:/app/Node Embeddings
+      - ./volume/Weighted Edges:/app/Weighted Edges

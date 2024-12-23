@@ -6,10 +6,10 @@ import os
 import json
 
 DATASET_DIRECTORY = "/Users/neeraj_py/Downloads/outputacm.txt"
-DATABASE_DIRECTORY = "/Users/neeraj_py/Desktop/class/Sem7/BTP/Multiplex Network Recommendation System/data/DBLP/test.db"
+DATABASE_DIRECTORY = "/Users/neeraj_py/Desktop/class/Sem7/BTP/Multiplex Network Recommendation System/data/DBLP Citation Network v1/test.db"
 
 
-# NOTE: DB must be initialised using Data Preparation/DBLP/init_db.sql before running this script
+# NOTE: DB must be initialised using Data Preparation/DBLP Citation Network v1/init_db.sql before running this script
 
 '''
 DATASET FORMAT
