@@ -1,0 +1,9 @@
+**/*.db
+**/*.zip
+**/*.txt
+**/*.embeddings
+/venv/
+**/*.db-journal
+**/*.log
+**/*.__pycache__
+**/*.DS_Store

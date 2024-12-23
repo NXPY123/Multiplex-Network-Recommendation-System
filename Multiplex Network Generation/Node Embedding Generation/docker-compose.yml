@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: weighted_deepwalk
+    volumes:
+      - ./Node Embeddings:/app/Node Embeddings
+      - ./Weighted Edges:/app/Weighted Edges
